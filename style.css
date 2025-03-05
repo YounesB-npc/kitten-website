@@ -1,10 +1,28 @@
+@font-face {
+  font-family: mayonice;
+  src: url(Mayonice.ttf);
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: Tahoma, san-serif;
+  font-family: Roboto, san-serif;
+}
+
+h1 {
+font-family: mayonice;
 }
 
 .little {
